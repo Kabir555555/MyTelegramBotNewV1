@@ -1,0 +1,15 @@
+{
+  "name": "telegram-sheet-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot interacting with Google Sheets on Vercel",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.1",
+    "googleapis": "^140.0.0",
+    "google-auth-library": "^9.11.0",
+    "dotenv": "^16.4.5"
+  }
+}
